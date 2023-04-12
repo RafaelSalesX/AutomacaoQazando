@@ -1,0 +1,85 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Registrar novo usuário com sucesso",
+        "description": "",
+        "id": "cadastro-de-usuário;registrar-novo-usuário-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "que estou na tela de login",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "acesso o cadastro de usuario",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "eu preencho o formulario de cadastro",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "clico em registrar",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "vejo a mensagem de cadastro realizado com sucesso",
+            "match": {},
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@cadastro-sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de usuário",
+    "description": "",
+    "id": "cadastro-de-usuário",
+    "keyword": "Funcionalidade",
+    "uri": "features/cadastro_usuario.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@cadastro"
+      }
+    ]
+  }
+]
